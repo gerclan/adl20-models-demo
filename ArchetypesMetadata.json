@@ -95,8 +95,8 @@
     "rmType" : "COMPOSITION",
     "name" : "Encounter",
     "path" : "archetypes/openEHR-EHR-COMPOSITION.encounter.v1.adls",
-    "sha" : "2ab4fea4190ae17ab4a85c41fe69ce49e435e1e0",
-    "languages" : [ "en", "sl" ]
+    "sha" : "7644d702c32609bc3a078d3df236c7e6096e1dbb",
+    "languages" : [ "en", "nb", "ko", "es-ar", "ar-sy" ]
   }, {
     "id" : "openEHR-EHR-COMPOSITION.report.v1.0.0",
     "rmType" : "COMPOSITION",
@@ -149,10 +149,10 @@
   }, {
     "id" : "openEHR-EHR-EVALUATION.problem_diagnosis.v1.0.0",
     "rmType" : "EVALUATION",
-    "name" : "Problem/Diagnosis",
+    "name" : "Problem/diagnosis",
     "path" : "archetypes/openEHR-EHR-EVALUATION.problem_diagnosis.v1.adls",
-    "sha" : "04589778faaa2ecec3df1d9ea982398f45c72320",
-    "languages" : [ "en", "sl" ]
+    "sha" : "ad5ff55472332969d7770f805446b80bce2ab98a",
+    "languages" : [ "en", "de", "nb", "es-ar", "pt-br", "ar-sy", "es" ]
   }, {
     "id" : "openEHR-EHR-INSTRUCTION.medication.v1.0.0",
     "rmType" : "INSTRUCTION",
@@ -230,5 +230,82 @@
     "path" : "archetypes/openEHR-EHR-SECTION.medication.v1.adls",
     "sha" : "d379bcf36aa1293b122d305a3daa87b3647ada0f",
     "languages" : [ "en" ]
+  }, {
+    "id" : "openEHR-DEMOGRAPHIC-ADDRESS.address-provider.v1.0.0",
+    "rmType" : "ADDRESS",
+    "name" : "Endereço de um Prestador de Assistência à Saúde",
+    "path" : "archetypes/openEHR-DEMOGRAPHIC-ADDRESS.address-provider.v1.adls",
+    "sha" : "c3f73e9796d547788f793d79f71e76de47336cc4",
+    "languages" : [ "pt-br", "en" ]
+  }, {
+    "id" : "openEHR-DEMOGRAPHIC-ADDRESS.address.v1.0.0",
+    "rmType" : "ADDRESS",
+    "name" : "Endereço",
+    "path" : "archetypes/openEHR-DEMOGRAPHIC-ADDRESS.address.v1.adls",
+    "sha" : "ff521b2783ca3938a4347a44b637e5357c146ee6",
+    "languages" : [ "pt-br", "en" ]
+  }, {
+    "id" : "openEHR-DEMOGRAPHIC-CLUSTER.individual_provider_credentials_iso.v1.0.0",
+    "rmType" : "CLUSTER",
+    "name" : "Credenciais do profissional de saúde",
+    "path" : "archetypes/openEHR-DEMOGRAPHIC-CLUSTER.individual_provider_credentials_iso.v1.adls",
+    "sha" : "a6a85f7f6f7d3581f2d87919d452ad339af42f49",
+    "languages" : [ "pt-br", "en" ]
+  }, {
+    "id" : "openEHR-DEMOGRAPHIC-CLUSTER.person_additional_data_iso.v1.0.0",
+    "rmType" : "CLUSTER",
+    "name" : "ISO: Dados demográficos adicionais de uma pessoa",
+    "path" : "archetypes/openEHR-DEMOGRAPHIC-CLUSTER.person_additional_data_iso.v1.adls",
+    "sha" : "2c80ddffbf5682161e1a22d12483b452a2ae67d9",
+    "languages" : [ "pt-br", "en" ]
+  }, {
+    "id" : "openEHR-DEMOGRAPHIC-CLUSTER.person_birth_data_iso.v1.0.0",
+    "rmType" : "CLUSTER",
+    "name" : "Dados do nascimento",
+    "path" : "archetypes/openEHR-DEMOGRAPHIC-CLUSTER.person_birth_data_iso.v1.adls",
+    "sha" : "cb823a6da7c09195ab8e21ac2e6236c52a01e1b7",
+    "languages" : [ "pt-br", "en" ]
+  }, {
+    "id" : "openEHR-DEMOGRAPHIC-CLUSTER.person_identifier-provider.v1.0.0",
+    "rmType" : "CLUSTER",
+    "name" : "Identificador de um prestador de assistência à saúde",
+    "path" : "archetypes/openEHR-DEMOGRAPHIC-CLUSTER.person_identifier-provider.v1.adls",
+    "sha" : "13ba694bea4fe5ec000d651f3224e0c6aa7ba835",
+    "languages" : [ "pt-br", "en" ]
+  }, {
+    "id" : "openEHR-DEMOGRAPHIC-CLUSTER.person_identifier.v1.0.0",
+    "rmType" : "CLUSTER",
+    "name" : "Identificador",
+    "path" : "archetypes/openEHR-DEMOGRAPHIC-CLUSTER.person_identifier.v1.adls",
+    "sha" : "6312be8a50e37574ee1f894ec97210d5d56253ad",
+    "languages" : [ "pt-br", "en" ]
+  }, {
+    "id" : "openEHR-DEMOGRAPHIC-ITEM_TREE.person_details.v1.0.0",
+    "rmType" : "ITEM_TREE",
+    "name" : "Dados da pessoa",
+    "path" : "archetypes/openEHR-DEMOGRAPHIC-ITEM_TREE.person_details.v1.adls",
+    "sha" : "4e9c4ebedd23b1dfc1b2d65af5cf232672cee61f",
+    "languages" : [ "pt-br", "en" ]
+  }, {
+    "id" : "openEHR-DEMOGRAPHIC-PARTY_IDENTITY.person_name.v1.0.0",
+    "rmType" : "PARTY_IDENTITY",
+    "name" : "Nome da pessoa",
+    "path" : "archetypes/openEHR-DEMOGRAPHIC-PARTY_IDENTITY.person_name.v1.adls",
+    "sha" : "df8acb44e7ca184c5c8f2342b671e776645904bb",
+    "languages" : [ "pt-br", "en" ]
+  }, {
+    "id" : "openEHR-EHR-CLUSTER.address.v0.0.0",
+    "rmType" : "CLUSTER",
+    "name" : "Address",
+    "path" : "archetypes/openEHR-EHR-CLUSTER.address.v0.adls",
+    "sha" : "c5426e0f3766a6ed89c1aca1b97988c2e61f1911",
+    "languages" : [ "en", "de", "nb", "es-ar", "el", "ar-sy" ]
+  }, {
+    "id" : "openEHR-EHR-CLUSTER.laboratory_test_analyte.v0.0.0",
+    "rmType" : "CLUSTER",
+    "name" : "Laboratory test analyte",
+    "path" : "archetypes/openEHR-EHR-CLUSTER.laboratory_test_analyte.v0.adls",
+    "sha" : "35a09c961e58f5427dd21b5f9961ff06f894258c",
+    "languages" : [ "en", "nb", "pt-br" ]
   } ]
 }
